@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
-import Login from './Login';
-import ForgotPassword from './ForgotPassword';
-import SignUp from './SignUp';
-import Home from './Home';
+import Login from './modules/loginPage/Login';
+import ForgotPassword from './modules/loginPage/ForgotPassword';
+import SignUp from './modules/loginPage/SignUp';
+import Home from './modules/homePage/Home';
 
 function App() {
   return (
